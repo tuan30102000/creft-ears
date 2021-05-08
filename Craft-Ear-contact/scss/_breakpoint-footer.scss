@@ -1,0 +1,26 @@
+
+@media (min-width: 1366px) {
+
+    
+  
+}
+@media (min-width: 1024px) and(max-width:1365px) {
+   
+   
+}
+@media (min-width: 768px) and(max-width:1023px) {
+   
+}
+@media (max-width:767.5px){
+    .footer-layuot__box{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .footer__authors{
+        text-align: center;
+    }
+   
+}

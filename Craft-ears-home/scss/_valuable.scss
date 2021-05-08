@@ -1,0 +1,34 @@
+$color-main: #212529;
+
+@media (min-width: 1366px) {
+    :root {
+        --grid-gap-col: 40px;
+        --header-height: 112px;
+        --grid-gap-col-mg: -40px;
+        --grid-gap-col-mg-lap-pc:-40px;
+    }
+}
+@media (min-width: 1024px) and(max-width:1365px) {
+    :root {
+        --grid-gap-col: 32px;
+        --header-height: 112px;
+        --grid-gap-col-mg: -32px;
+        --grid-gap-col-mg-lap-pc:-32px;
+    }
+}
+@media (min-width: 768px) and(max-width:1023px) {
+    :root {
+        --grid-gap-col: 24px;
+        --header-height: 112px;
+        --grid-gap-col-mg: -24px;
+        --grid-gap-col-mg-lap-pc:0;
+    }
+}
+@media (max-width: 767.5px) {
+    :root {
+        --grid-gap-col: 0px;
+        --header-height: 112px;
+        --grid-gap-col-mg: -0px;
+        --grid-gap-col-mg-lap-pc:0;
+    }
+}

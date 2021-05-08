@@ -1,0 +1,23 @@
+@media (min-width: 1366px) {
+ 
+}
+@media (min-width: 1024px) and(max-width:1365px) {
+  
+}
+@media (min-width: 768px) and(max-width:1023px) {
+    .product-wraper{
+      
+      &:nth-child(2n + 1){
+        grid-column: 1/span 6;
+        margin-right: var(--grid-gap-col-mg-lap-pc);
+      }
+      &:nth-child(2n + 2){
+        grid-column: span 6/-1;
+        margin-left: var(--grid-gap-col-mg-lap-pc);
+      }
+    }
+}
+@media (max-width:767.5px){
+
+   
+}
