@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/css/style1.css">
-    <link href="./fontawesome-free-5.15.2-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/style1.css">
+    <link href="../css-scss/fontawesome-free-5.15.2-web/css/all.min.css" rel="stylesheet">
     <title>Craft Ear made By Tuân Pham</title>
 </head>
 
@@ -14,7 +14,8 @@
         <header class="header layuot">
             <div class="header-box layuot-box">
                 <a href="#" class="header__logo">
-                    <img src="https://www.craftears.com/assets/img/logo.svg" alt="">
+                    <!-- <img src="https://www.craftears.com/assets/img/logo.svg" alt=""> -->
+                    legacy
                 </a>
                 <ul class="header__list-link">
                     <li class="header__item"><a href="#ciem" class="header__item-link">Our CIEM's</a></li>
@@ -22,12 +23,24 @@
                     <li class="header__item"><a href="#" class="header__item-link">Artists</a></li>
                     <li class="header__item"><a href="#" class="header__item-link">Contact</a></li>
                 </ul>
-                <div class="header__btn-mobie show-mb"><span class="open">Menu</span><span class="close">X</span></div>
+                <div class="navigation">
+                    <div class="user-path">
+                        <a href="" class="header-link__singed  extension-icon"> <i class="far fa-user-circle"></i></a>
+                    </div>
+                    <div class="shopping-cart">
+                        <span class="cart-content"><i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                </div>
+                <div class="header__btn-mobie show-mb"><span class="open"><i class="fas fa-bars"></i></span><span
+                        class="close">X</span>
+                </div>
+
+
             </div>
 
         </header>
         <div class="container">
-            <div class="layuot container__product-title-wraper">
+            <div class="layuot container__product-title-wraper pdt-162">
                 <div class="layuot-box container__product-title">
                     <h1 class="product-tile">Our <span>Monitors</span></h1>
                 </div>
