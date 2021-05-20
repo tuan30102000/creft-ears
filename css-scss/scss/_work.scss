@@ -4,7 +4,7 @@
 .container__product-title{}
 .product-tile{
     font-size: 56px;
-    color:$color-main;
+    color:var(--color-main);
     font-weight: 600;
     text-align: center;
     span{
@@ -37,7 +37,7 @@
 .product-work__info{}
 .product-work__des{
     font-size: 12px;
-    color: $color-main;
+    color:var(--color-main) ;
     margin: 12px 0;
     font-weight: 500;
 }
@@ -52,7 +52,7 @@
 }
 .product-work__cap{
     font-size: 13px;
-    color: $color-main;
+    color: var(--color-main);
     line-height: 26px;
 }
 .product-work__bold{

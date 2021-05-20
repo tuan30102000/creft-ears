@@ -1,7 +1,10 @@
-$color-main: #212529;
-$home-page1-color:#fff;
 
 
+:root{
+    --color-main:#212529;
+    --home-page1-color:#fff;
+    --slide-height:550px;
+}
 @media (min-width: 1366px) {
     :root {
         --grid-gap-col: 40px;

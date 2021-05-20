@@ -7,7 +7,7 @@
         text-transform: uppercase;
         font-weight: 900;
         transition: 0.4s;
-        i{
+        i {
             font-size: 20px;
         }
     }
@@ -26,16 +26,18 @@
 }
 @media (max-width: 767.5px) {
     .header {
-        overflow-y: hidden;
         transition: 0.5s;
     }
     .header.open-menu {
-        overflow-y: visible;
+        .header__list-link {
+            display: block;
+        }
     }
     .header-box {
         justify-content: space-between;
     }
     .header__list-link {
+        display: none;
         flex-direction: column;
         width: 100%;
         position: absolute;
@@ -44,10 +46,10 @@
         top: 100%;
         background-color: #fff;
         transition: 1s;
+        margin-top: -2px;
     }
     .header__item-link {
         line-height: 44px;
         text-align: center;
     }
-    
 }
