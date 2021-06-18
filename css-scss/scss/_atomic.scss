@@ -10,7 +10,8 @@
 }
 .text-uppercase {
     text-transform: uppercase !important;
-}.text-cptl {
+}
+.text-cptl {
     text-transform: capitalize;
 }
 /* text */
@@ -63,8 +64,6 @@
 }
 /* bgr*/
 
-
-
 .z-index1 {
     position: relative;
     z-index: 1;
@@ -78,6 +77,10 @@
 }
 .flex {
     display: flex;
+}
+.flex-aling-center {
+    display: flex;
+    align-items: center;
 }
 .flex-wrap {
     flex-wrap: wrap;
@@ -114,10 +117,16 @@
 
 /* margin */
 /* padding */
-.pdt-162{
+.pdt-162 {
     padding-top: 162px;
 }
-.pdt-140{
+.pdt-250 {
+    padding-top: 250px;
+}
+.pdt-185 {
+    padding-top: 185px;
+}
+.pdt-140 {
     padding-top: 140px;
 }
 /* padding */
@@ -136,7 +145,7 @@
 }
 
 /* after */
-.pos-rel-z1{
+.pos-rel-z1 {
     position: relative;
     z-index: 1;
 }
