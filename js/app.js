@@ -8,9 +8,11 @@ window.onscroll = function () {
 $('.header__btn-mobie').click(function () {
     if (!Boolean(document.querySelector('.header.open-menu'))) {
         $('.header').addClass('open-menu')
-        gsap.from('.header__item', { duration: 1, opacity: 0, stagger: .5, })
+        $('.nav-oder__wraper').addClass('active')
+        gsap.from('.header__item', { duration: 0.8, opacity: 0, stagger: .2, })
     } else {
         $('.header').removeClass('open-menu')
+        $('.nav-oder__wraper').removeClass('active')
     }
 })
 function animationHomePage1() {
@@ -19,10 +21,16 @@ function animationHomePage1() {
             duration: 1,
         }
     })
-    timeline
-        .from('.header', { x: '100%', duration: 1, ease: 'ease', })
-        .from('.header__item', { duration: 1, opacity: 0, stagger: .5, })
+    if($(window).width()<768){
+        timeline
+        .from('.header', { x: '100%', duration: 1.4, ease: 'ease', })
+    } else {
+        timeline
+        .from('.header', { x: '100%', duration: 1.4, ease: 'ease', })
+        .from('.header__item', { duration: .8, opacity: 0, stagger: .3, })
+    }
 }
+
 
 
 animationHomePage1()
