@@ -1,0 +1,132 @@
+.container-oder__wraper {
+}
+
+.oder-box {
+}
+.oder__option-box {
+}
+.oder__list-option {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+        flex: 1;
+        text-align: center;
+        padding: 15px 0;
+        border: 1px solid black;
+    }
+    
+}
+.option-radio:checked ~label{
+    background-color: black;
+    color: #fff;
+}
+input[type="radio"] {
+}
+.options-crical input[type="radio"]:checked ~ label {
+    border: 3px solid black;
+    width: var(--radio-checked);
+    height: var(--radio-checked);
+}
+.otions-text label{
+    min-width:100px;
+    padding:7px 15px;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+
+    border: 1px solid;
+
+}
+.option-detail__wraper {
+}
+.option-detail {
+    /*  display: none; */
+}
+.option-detail.active {
+    display: block;
+}
+.shell {
+}
+.option-one {
+}
+.option-text {
+}
+.option__items {
+    /*  display: none; */
+}
+.option-title {
+    width: 100%;
+    text-align: center;
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+.option {
+    grid-row: 2;
+}
+.options-crical {
+    label {
+        display: block;
+        width: var(--radio-r);
+        height: var(--radio-r);
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+}
+.option-one-group {
+}
+.options__group {
+}
+.config-group {
+}
+.option-radio {
+}
+.options__list-configure {
+}
+.configure__shell {
+}
+.choose-one {
+}
+.option-crical {
+}
+.shell-two {
+}
+.configure__shell-two {
+}
+.choose-two {
+}
+.right {
+}
+.left {
+}
+.container-oder__wraper.layuot.pdt-162 {
+}
+.oder-box.layuot-box {
+}
+.option-detail.shell {
+}
+.option-one.option-text.option__items {
+}
+.options.option-one-group {
+}
+.options__group.config-group {
+}
+.config-group.options__group {
+}
+.options__list-configure.configure__shell.choose-one {
+}
+.option-crical.option__items.shell-two.choose-one {
+}
+.options.configure__shell-two.choose-one {
+}
+.options__list-configure.configure__shell.choose-two {
+}
+.option-crical.option__items.shell-two.choose-two.right {
+}
+.options.configure__shell-two.choose-two {
+}
+.option-crical.option__items.shell-two.choose-two.left {
+}
