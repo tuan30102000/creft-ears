@@ -49,341 +49,707 @@
             <div class="container-oder__wraper layuot pdt-162">
                 <div class="oder-box layuot-box">
                     <div class="oder__option-box">
-                        <ul class="oder__list-option">
-                            <li name='shell'>SHELL</li>
-                            <li name='faceplate'>FACEPLATE</li>
-                            <li name='artwork'>ARTWORK</li>
-                            <li name='cable'>CABLE</li>
-                            <li name='material'>MATERIAL</li>
+                        <ul class="oder__list-options-btn">
+                            <li><input type="radio" firtname="ad1" name="option-state" id="shell-btn" value=1
+                                    checked><label for="shell-btn">shell</label></li>
+                            <li><input type="radio" name="option-state" id="faceplate-btn" value=2><label
+                                    for="faceplate-btn">faceplate</label></li>
+                            <li><input type="radio" name="option-state" id="artwork-btn" value=3><label
+                                    for="artwork-btn">artwork</label></li>
+                            <li><input type="radio" name="option-state" id="cable-btn" value=4><label
+                                    for="cable-btn">cable</label></li>
+                            <li><input type="radio" name="option-state" id="material-btn" value=5><label
+                                    for="material-btn">material</label></li>
+
                         </ul>
                         <div class="option-detail__wraper">
                             <!-- shell -->
                             <div class="option-detail option-shell">
                                 <!-- choose 1 or 2 -->
-                                <div class="option__items">
+                                <div class="option__items shell-one choose-1or2">
                                     <p class="option-title">CONFIGURE LEFT AND RIGHT SIDE SEPARATELY</p>
-                                    <ul class="options otions-text">
+                                    <ul class="options options-text">
                                         <li class="option">
-                                            <input type="radio" class="option-radio" id="shell-one-1" value="1" checked
-                                                name="shell-one">
-                                            <label for="shell-one-1"><span>Yes</span></label>
+                                            <input type="radio" id="shell-one-2" value="2" name="shell-one">
+                                            <label for="shell-one-2"><span>Yes</span></label>
                                         </li>
                                         <li class="option">
-                                            <input type="radio" class="option-radio" id="shell-one-2" value="2"
-                                                name="shell-one">
-                                            <label for="shell-one-2"><span>No</span></label>
+                                            <input type="radio" id="shell-one-1" value="1" name="shell-one"
+                                                checked>
+                                            <label for="shell-one-1"><span>No</span></label>
                                         </li>
                                     </ul>
                                 </div>
                                 <!-- op choose  -->
-                                <div class="options__configure choose-one">
+                                <div class="options__configure choose-1">
 
                                     <div class="option__items">
                                         <p class="option-title">BOTH - CHOOSE A SHELL COLOR</p>
                                         <ul class="options options-crical">
                                             <li class="option">
-                                                <input type="radio" name="shell" id="shell-two__c1-1" value="1" checked>
+                                                <input for="shell" type="radio" name="shell-two" id="shell-two__c1-1" value="1" checked>
                                                 <label for="shell-two__c1-1"></label>
                                             </li>
                                             <li class="option">
-                                                <input type="radio" name="shell" id="shell-two__c1-2">
-                                                <label for="shell-two__c1-2" value="2"></label>
+                                                <input for="shell" type="radio" name="shell-two" value="2" id="shell-two__c1-2">
+                                                <label for="shell-two__c1-2"></label>
                                             </li>
                                             <li class="option">
-                                                <input type="radio" name="shell" id="shell-two__c1-3">
-                                                <label for="shell-two__c1-3" value="3"></label>
+                                                <input for="shell" type="radio" name="shell-two" value="3" id="shell-two__c1-3">
+                                                <label for="shell-two__c1-3"></label>
                                             </li>
                                             <li class="option">
-                                                <input type="radio" name="shell" id="shell-two__c1-4">
-                                                <label for="shell-two__c1-4" value="4"></label>
+                                                <input for="shell" type="radio" name="shell-two" value="4" id="shell-two__c1-4">
+                                                <label for="shell-two__c1-4"></label>
                                             </li>
                                         </ul>
-
                                     </div>
                                 </div>
                                 <!-- op choose 2 -->
-                                <div class="options__configure choose-two">
+                                <div class="options__configure choose-2">
                                     <!-- shell right -->
-                                    <div class="choose-two__right">
+                                    <div class="choose-2__right configure_each-ear">
                                         <div class="option__items shell-two">
                                             <p class="option-title">RIGHT - CHOOSE A SHELL COLOR</p>
                                             <ul class="options options-crical">
                                                 <li class="option">
-                                                    <input type="radio" name="shell-right" id="shell-two__right-1"
+                                                    <input for="shell" type="radio" name="shell-right" id="shell-two__right-1"
                                                         value="1" checked>
                                                     <label for="shell-two__right-1"></label>
                                                 </li>
                                                 <li class="option">
-                                                    <input type="radio" name="shell-right" id="shell-two__right-2">
-                                                    <label for="shell-two__right-2" value="2"></label>
+                                                    <input for="shell" type="radio" name="shell-right" value="2"
+                                                        id="shell-two__right-2">
+                                                    <label for="shell-two__right-2"></label>
                                                 </li>
                                                 <li class="option">
-                                                    <input type="radio" name="shell-right" id="shell-two__right-3">
-                                                    <label for="shell-two__right-3" value="3"></label>
+                                                    <input for="shell" type="radio" name="shell-right" value="3"
+                                                        id="shell-two__right-3">
+                                                    <label for="shell-two__right-3"></label>
                                                 </li>
                                                 <li class="option">
-                                                    <input type="radio" name="shell-right" id="shell-two__right-4">
-                                                    <label for="shell-two__right-4" value="4"></label>
+                                                    <input for="shell" type="radio" name="shell-right" value="4"
+                                                        id="shell-two__right-4">
+                                                    <label for="shell-two__right-4"></label>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <!-- shell left -->
-                                    <div class="choose-two__left">
+                                    <div class="choose-2__left configure_each-ear">
                                         <div class="option__items shell-two">
                                             <p class="option-title">LEFT - CHOOSE A SHELL COLOR</p>
                                             <ul class="options options-crical">
                                                 <li class="option">
-                                                    <input type="radio" name="shell-left" id="shell-two__left-1"
+                                                    <input for="shell" type="radio" name="shell-left" id="shell-two__left-1"
                                                         value="1" checked>
                                                     <label for="shell-two__left-1"></label>
                                                 </li>
                                                 <li class="option">
-                                                    <input type="radio" name="shell-left" id="shell-two__left-2">
-                                                    <label for="shell-two__left-2" value="2"></label>
+                                                    <input for="shell" type="radio" name="shell-left" value="2"
+                                                        id="shell-two__left-2">
+                                                    <label for="shell-two__left-2"></label>
                                                 </li>
                                                 <li class="option">
-                                                    <input type="radio" name="shell-left" id="shell-two__left-3">
-                                                    <label for="shell-two__left-3" value="3"></label>
+                                                    <input for="shell" type="radio" name="shell-left" value="3"
+                                                        id="shell-two__left-3">
+                                                    <label for="shell-two__left-3"></label>
                                                 </li>
                                                 <li class="option">
-                                                    <input type="radio" name="shell-left" id="shell-two__left-4">
-                                                    <label for="shell-two__left-4" value="4"></label>
+                                                    <input for="shell" type="radio" name="shell-left" value="4"
+                                                        id="shell-two__left-4">
+                                                    <label for="shell-two__left-4"></label>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                             <!-- faceplate -->
                             <div class="option-detail option-faceplate">
                                 <!-- faceplate choose 1 or 2 -->
-                                <div class="option-one option__items facepalte-one">
+                                <div class="choose-1or2 option__items faceplate-one">
                                     <p class="option-title">CONFIGURE LEFT AND RIGHT SIDE SEPARATELY</p>
-                                    <ul class="options otions-text">
+                                    <ul class="options options-text">
                                         <li class="option">
-                                            <input type="radio" class="option-radio" id="faceplate-one-1" value="1"
-                                                checked name="faceplate-one">
-                                            <label for="faceplate-one-1"><span>Yes</span></label>
+                                            <input type="radio" id="faceplate-one-2" value="2" name="faceplate-one">
+                                            <label for="faceplate-one-2"><span>Yes</span></label>
                                         </li>
                                         <li class="option">
-                                            <input type="radio" class="option-radio" id="faceplate-one-2" value="2"
-                                                name="faceplate-one">
-                                            <label for="faceplate-one-2"><span>No</span></label>
+                                            <input type="radio" id="faceplate-one-1" value="1" name="faceplate-one"
+                                                checked>
+                                            <label for="faceplate-one-1"><span>No</span></label>
                                         </li>
                                     </ul>
                                 </div>
                                 <!-- faceplate choose 1 -->
-                                <div class="options__configure choose-one">
+                                <div class="options__configure choose-1">
                                     <!-- faceplate choose solid or translucent -->
-                                    <div class="faceplate-two option__items option__items-lv2">
-                                        <p class="option-title">BOTH</p>
-                                        <ul class="options otions-text">
-                                            <li class="option">
-                                                <input type="radio" class="option-radio" id="facepalte-two-c1-1"
-                                                    value="1" checked name="facepalte-two-c1">
-                                                <label for="facepalte-two-c1-1"><span>SOLID</span></label>
-                                            </li>
-                                            <li class="option">
-                                                <input type="radio" class="option-radio" id="facepalte-two-c1-2"
-                                                    value="2" name="facepalte-two-c1">
-                                                <label for="facepalte-two-c1-2"><span>TRANSLUCENT</span></label>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- facc plate choose 1 choose sold -->
-                                    <div class="option__items option__items-lv3 facepalte-three choose-solid">
-                                        <p class="option-title">BOTH - SOLID</p>
-                                        <ul class="options options-crical">
-                                            <li class="option configure__facepalte-three">
-                                                <input type="radio" name="facepalte-three-c1"
-                                                    id="facepalte-three__solid-c1-1" value="1" checked>
-                                                <label for="facepalte-three__solid-c1-1"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-three">
-                                                <input type="radio" name="facepalte-three-c1"
-                                                    id="facepalte-three__solid-c1-2">
-                                                <label for="facepalte-three__solid-c1-2" value="2"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-three">
-                                                <input type="radio" name="facepalte-three-c1"
-                                                    id="facepalte-three__solid-c1-3">
-                                                <label for="facepalte-three__solid-c1-3" value="3"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-three">
-                                                <input type="radio" name="facepalte-three-c1"
-                                                    id="facepalte-three__solid-c1-4">
-                                                <label for="facepalte-three__solid-c1-4" value="4"></label>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- facc plate choose 1 choose translucent-->
-
-                                    <div class="option__items  option__items-lv3 facepalte-three choose-translucent">
-                                        <p class="option-title">BOTH - TRANSLUCENT</p>
-                                        <ul class="options options-crical">
-                                            <li class="option">
-                                                <input type="radio" name="facepalte-four-c1" id="facepalte-four-c1-1"
-                                                    value="1" checked>
-                                                <label for="facepalte-four-c1-1"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-four">
-                                                <input type="radio" name="facepalte-four-c1" id="facepalte-four-c1-2">
-                                                <label for="facepalte-four-c1-2" value="2"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-four">
-                                                <input type="radio" name="facepalte-four-c1" id="facepalte-four-c1-3">
-                                                <label for="facepalte-four-c1-3" value="3"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-four">
-                                                <input type="radio" name="facepalte-four-c1" id="facepalte-four-c1-4">
-                                                <label for="facepalte-four-c1-4" value="4"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-four">
-                                                <input type="radio" name="facepalte-four-c1" id="facepalte-four-c1-5">
-                                                <label for="facepalte-four-c1-5" value="5"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-four">
-                                                <input type="radio" name="facepalte-four-c1" id="facepalte-four-c1-6">
-                                                <label for="facepalte-four-c1-6" value="6"></label>
-                                            </li>
-                                            <li class="option configure__facepalte-four">
-                                                <input type="radio" name="facepalte-four-c1" id="facepalte-four-c1-7">
-                                                <label for="facepalte-four-c1-7" value="7"></label>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!--faceplate choose 2  -->
-                                <div class="configure__facepalte choose-two">
-                                    <!-- faceplate right -->
-                                    <div class="choose-two__right">
-                                        <!-- faceplate choose solid or translucent right -->
-                                        <div class="option-two option__items option__items-lv2">
-                                            <p class="option-title">RIGHT</p>
-                                            <ul class="options otions-text">
+                                    <div class="choose-detail">
+                                        <div class="faceplate-two option__items option__items-lv2">
+                                            <p class="option-title">BOTH</p>
+                                            <ul class="options options-text">
                                                 <li class="option">
-                                                    <input type="radio" class="option-radio" id="facepalte-two-right-c2-1"
-                                                        value="1" checked name="facepalte-two-right">
-                                                    <label for="facepalte-two-right-c2-1"><span>SOLID</span></label>
+                                                    <input type="radio" id="faceplate-two-c1-1" value="1" checked
+                                                        name="faceplate-two-c1" choose="solid">
+                                                    <label for="faceplate-two-c1-1"><span>SOLID</span></label>
                                                 </li>
                                                 <li class="option">
-                                                    <input type="radio" class="option-radio" id="facepalte-two-right-c2-2"
-                                                        value="2" name="facepalte-two-right">
-                                                    <label for="facepalte-two-right-c2-2"><span>TRANSLUCENT</span></label>
+                                                    <input type="radio" id="faceplate-two-c1-2" value="2"
+                                                        name="faceplate-two-c1" choose="translucent">
+                                                    <label for="faceplate-two-c1-2"><span>TRANSLUCENT</span></label>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <!-- faceplate right choose solid choose 2 -->
-                                        <div class="option__items option__items-lv3 facepalte-three choose-solid">
+                                        <!-- facc plate choose 1 choose sold -->
+                                        <div class="option__items option__items-lv3 faceplate-three choose-solid">
                                             <p class="option-title">BOTH - SOLID</p>
                                             <ul class="options options-crical">
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three-right__solid-c2-1" value="1" checked>
-                                                    <label for="facepalte-three-right__solid-c2-1"></label>
+                                                <li class="option configure__faceplate-three">
+                                                    <input for="faceplate" type="radio" name="faceplate-three-c1"
+                                                        id="faceplate-three-c1-1" value="1" checked>
+                                                    <label for="faceplate-three-c1-1"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three-right__solid-c2-2">
-                                                    <label for="facepalte-three-right__solid-c2-2" value="2"></label>
+                                                <li class="option configure__faceplate-three">
+                                                    <input for="faceplate" type="radio" name="faceplate-three-c1"
+                                                        id="faceplate-three-c1-2" value="2">
+                                                    <label for="faceplate-three-c1-2"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three-right__solid-c2-3">
-                                                    <label for="facepalte-three-right__solid-c2-3" value="3"></label>
+                                                <li class="option configure__faceplate-three">
+                                                    <input for="faceplate" type="radio" name="faceplate-three-c1"
+                                                        id="faceplate-three-c1-3" value="3">
+                                                    <label for="faceplate-three-c1-3"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three-right__solid-c2-4">
-                                                    <label for="facepalte-three-right__solid-c2-4" value="4"></label>
+                                                <li class="option configure__faceplate-three">
+                                                    <input for="faceplate" type="radio" name="faceplate-three-c1"
+                                                        id="faceplate-three-c1-4" value="4">
+                                                    <label for="faceplate-three-c1-4"></label>
                                                 </li>
                                             </ul>
                                         </div>
+                                        <!-- faceplate choose 1 choose translucent-->
 
-                                        <!-- faceplate right choose translucent choose 2 -->
-                                        <div class="option__items  option__items-lv3 facepalte-three choose-translucent">
+                                        <div
+                                            class="option__items  option__items-lv3 faceplate-three choose-translucent">
                                             <p class="option-title">BOTH - TRANSLUCENT</p>
                                             <ul class="options options-crical">
                                                 <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three__translucent-c2-1" value="1" checked>
-                                                    <label for="facepalte-three__translucent-c2-1"></label>
+                                                    <input for="faceplate" type="radio" name="faceplate-four-c1"
+                                                        id="faceplate-four-c1-1" value="1" checked>
+                                                    <label for="faceplate-four-c1-1"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three__translucent-c2-2">
-                                                    <label for="facepalte-three__translucent-c2-2" value="2"></label>
+                                                <li class="option configure__faceplate-four">
+                                                    <input for="faceplate" type="radio" name="faceplate-four-c1"
+                                                        id="faceplate-four-c1-2" value="2">
+                                                    <label for="faceplate-four-c1-2"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three__translucent-c2-3">
-                                                    <label for="facepalte-three__translucent-c2-3" value="3"></label>
+                                                <li class="option configure__faceplate-four">
+                                                    <input for="faceplate" type="radio" name="faceplate-four-c1"
+                                                        id="faceplate-four-c1-3" value="3">
+                                                    <label for="faceplate-four-c1-3"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three__translucent-c2-4">
-                                                    <label for="facepalte-three__translucent-c2-4" value="4"></label>
+                                                <li class="option configure__faceplate-four">
+                                                    <input for="faceplate" type="radio" name="faceplate-four-c1"
+                                                        id="faceplate-four-c1-4" value="4">
+                                                    <label for="faceplate-four-c1-4"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three__translucent-c2-5">
-                                                    <label for="facepalte-three__translucent-c2-5" value="5"></label>
+                                                <li class="option configure__faceplate-four">
+                                                    <input for="faceplate" type="radio" name="faceplate-four-c1"
+                                                        id="faceplate-four-c1-5" value="5">
+                                                    <label for="faceplate-four-c1-5"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three__translucent-c2-6">
-                                                    <label for="facepalte-three__translucent-c2-6" value="6"></label>
+                                                <li class="option configure__faceplate-four">
+                                                    <input for="faceplate" type="radio" name="faceplate-four-c1"
+                                                        id="faceplate-four-c1-6" value="6">
+                                                    <label for="faceplate-four-c1-6"></label>
                                                 </li>
-                                                <li class="option">
-                                                    <input type="radio" name="facepalte"
-                                                        id="facepalte-three__translucent-c2-7">
-                                                    <label for="facepalte-three__translucent-c2-7" value="7"></label>
+                                                <li class="option configure__faceplate-four">
+                                                    <input for="faceplate" type="radio" name="faceplate-four-c1"
+                                                        id="faceplate-four-c1-7" value="7">
+                                                    <label for="faceplate-four-c1-7"></label>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                            </div><!--  -->
+                                <!--faceplate choose 2  -->
+            
+                                <div class="options__configure choose-2">
+                                    <!-- faceplate right -->
+                                    <div class="choose-2__right configure_each-ear">
+                                        <!-- faceplate choose solid or translucent right -->
+                                        <div class="choose-detail">
+                                            <div class="option-two option__items option__items-lv2">
+                                                <p class="option-title">RIGHT</p>
+                                                <ul class="options options-text">
+                                                    <li class="option">
+                                                        <input type="radio" id="faceplate-two-right-c2-1" value="1"
+                                                            checked choose="solid" name="faceplate-two-right">
+                                                        <label for="faceplate-two-right-c2-1"><span>SOLID</span></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input type="radio" id="faceplate-two-right-c2-2" value="2"
+                                                            choose="translucent" name="faceplate-two-right">
+                                                        <label
+                                                            for="faceplate-two-right-c2-2"><span>TRANSLUCENT</span></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- faceplate right choose solid choose 2 -->
+                                            <div class="option__items option__items-lv3 faceplate-three choose-solid">
+                                                <p class="option-title">BOTH - SOLID</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-right"
+                                                            id="faceplate-three-right-1" value="1" checked>
+                                                        <label for="faceplate-three-right-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-right"
+                                                            id="faceplate-three-right-2">
+                                                        <label for="faceplate-three-right-2" value="2"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-right"
+                                                            id="faceplate-three-right-3">
+                                                        <label for="faceplate-three-right-3" value="3"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-right"
+                                                            id="faceplate-three-right-4">
+                                                        <label for="faceplate-three-right-4" value="4"></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
+                                            <!-- faceplate right choose translucent choose 2 -->
+                                            <div
+                                                class="option__items  option__items-lv3 faceplate-three choose-translucent">
+                                                <p class="option-title">BOTH - TRANSLUCENT</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-right"
+                                                            id="faceplate-four-right-1" value="1" checked>
+                                                        <label for="faceplate-four-right-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-right"
+                                                            id="faceplate-four-right-2" value="2">
+                                                        <label for="faceplate-four-right-2"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-right"
+                                                            id="faceplate-four-right-3" value="3">
+                                                        <label for="faceplate-four-right-3"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-right"
+                                                            id="faceplate-four-right-4" value="4">
+                                                        <label for="faceplate-four-right-4"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-right"
+                                                            id="faceplate-four-right-5" value="5">
+                                                        <label for="faceplate-four-right-5"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-right"
+                                                            id="faceplate-four-right-6" value="6">
+                                                        <label for="faceplate-four-right-6"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-right"
+                                                            id="faceplate-four-right-7" value="7">
+                                                        <label for="faceplate-four-right-7"></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- faceplate left -->
+                                    <div class="choose-2__left configure_each-ear">
+                                        <!-- faceplate choose solid or translucent left -->
+                                        <div class="choose-detail">
+                                            <div class="option-two option__items option__items-lv2">
+                                                <p class="option-title">LEFT</p>
+                                                <ul class="options options-text">
+                                                    <li class="option">
+                                                        <input type="radio" id="faceplate-two-left-1" value="1" checked
+                                                            choose="solid" name="faceplate-two-left">
+                                                        <label for="faceplate-two-left-1"><span>SOLID</span></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input type="radio" id="faceplate-two-left-2" value="2"
+                                                            choose="translucent" name="faceplate-two-left">
+                                                        <label
+                                                            for="faceplate-two-left-2"><span>TRANSLUCENT</span></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- faceplate left choose solid choose 2 -->
+                                            <div class="option__items option__items-lv3 faceplate-three choose-solid">
+                                                <p class="option-title">BOTH - SOLID</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-left"
+                                                            id="faceplate-three-left-1" value="1" checked>
+                                                        <label for="faceplate-three-left-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-left"
+                                                            id="faceplate-three-left-2" value="2">
+                                                        <label for="faceplate-three-left-2"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-left"
+                                                            id="faceplate-three-left-3" value="3">
+                                                        <label for="faceplate-three-left-3"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-three-left"
+                                                            id="faceplate-three-left-4" value="4">
+                                                        <label for="faceplate-three-left-4"></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- faceplate left choose translucent choose 2 -->
+                                            <div
+                                                class="option__items  option__items-lv3 faceplate-three choose-translucent">
+                                                <p class="option-title">BOTH - TRANSLUCENT</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-left"
+                                                            id="faceplate-four-left-1" value="1" checked>
+                                                        <label for="faceplate-four-left-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-left"
+                                                            id="faceplate-four-left-2" value="2">
+                                                        <label for="faceplate-four-left-2"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-left"
+                                                            id="faceplate-four-left-3" value="3">
+                                                        <label for="faceplate-four-left-3"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-left"
+                                                            id="faceplate-four-left-4" value="4">
+                                                        <label for="faceplate-four-left-4"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-left"
+                                                            id="faceplate-four-left-5" value="5">
+                                                        <label for="faceplate-four-left-5"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-left"
+                                                            id="faceplate-four-left-6" value="6">
+                                                        <label for="faceplate-four-left-6"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="faceplate" type="radio" name="faceplate-four-left"
+                                                            id="faceplate-four-left-7" value="7">
+                                                        <label for="faceplate-four-left-7"></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- artwork -->
+                            <div class="option-detail option-artwork">
+                                <!-- artwork choose 1 or 2 -->
+                                <div class="choose-1or2 option__items artwork-one">
+                                    <p class="option-title">CONFIGURE LEFT AND RIGHT SIDE SEPARATELY</p>
+                                    <ul class="options options-text">
+                                        <li class="option">
+                                            <input type="radio" id="artwork-one-2" value="2" name="artwork-one">
+                                            <label for="artwork-one-2"><span>Yes</span></label>
+                                        </li>
+                                        <li class="option">
+                                            <input type="radio" id="artwork-one-1" value="1" name="artwork-one" checked>
+                                            <label for="artwork-one-1"><span>No</span></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- artwork choose 1 -->
+                                <div class="options__configure choose-1">
+                                    <!-- artwork choose logo or speciality -->
+                                    <div class="choose-detail">
+                                        <div class="artwork-two option__items option__items-lv2">
+                                            <p class="option-title">BOTH</p>
+                                            <ul class="options options-text">
+                                                <li class="option">
+                                                    <input type="radio" id="artwork-two-c1-1" value="1" checked
+                                                        name="artwork-two-c1" choose="logo">
+                                                    <label for="artwork-two-c1-1"><span>LOGO-COLOR</span></label>
+                                                </li>
+                                                <li class="option">
+                                                    <input type="radio" id="artwork-two-c1-2" value="2"
+                                                        name="artwork-two-c1" choose="speciality">
+                                                    <label for="artwork-two-c1-2"><span>SPECIALITY</span></label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- artwork choose 1 choose BOTH - SPECIALITY -->
+                                        <div class="option__items option__items-lv3 artwork-three choose-logo">
+                                            <p class="option-title">BOTH-LOGO-COLOR</p>
+                                            <ul class="options options-crical">
+                                                <li class="option configure__artwork-three">
+                                                    <input for="artwork" type="radio" name="artwork-three-c1" id="artwork-three-c1-1"
+                                                        value="1" checked>
+                                                    <label for="artwork-three-c1-1"></label>
+                                                </li>
+                                                <li class="option configure__artwork-three">
+                                                    <input for="artwork" type="radio" name="artwork-three-c1" id="artwork-three-c1-2" value="2">
+                                                    <label for="artwork-three-c1-2"></label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- artwork choose 1 choose BOTH - LOGO-COLOR-->
+                                        <div class="option__items  option__items-lv3 artwork-three choose-speciality">
+                                            <p class="option-title">BOTH-SPECIALITY</p>
+                                            <ul class="options options-crical">
+                                                <li class="option">
+                                                    <input for="artwork" type="radio" name="artwork-four-c1" id="artwork-four-c1-1"
+                                                        value="1" checked>
+                                                    <label for="artwork-four-c1-1"></label>
+                                                </li>
+                                                <li class="option configure__artwork-four">
+                                                    <input for="artwork" type="radio" name="artwork-four-c1" id="artwork-four-c1-2" value="2">
+                                                    <label for="artwork-four-c1-2"></label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--artwork choose 2  -->
+                                <div class="options__configure choose-2">
+                                    <!-- artwork right -->
+                                    <div class="choose-2__right configure_each-ear">
+                                        <!-- artwork choose logo or translucent right -->
+                                        <div class="choose-detail">
+                                            <div class="option-two option__items option__items-lv2">
+                                                <p class="option-title">RIGHT</p>
+                                                <ul class="options options-text">
+                                                    <li class="option">
+                                                        <input type="radio" id="artwork-two-right-c2-1" value="1"
+                                                            checked choose="logo" name="artwork-two-right">
+                                                        <label
+                                                            for="artwork-two-right-c2-1"><span>LOGO-COLOR</span></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input type="radio" id="artwork-two-right-c2-2" value="2"
+                                                            choose="speciality" name="artwork-two-right">
+                                                        <label
+                                                            for="artwork-two-right-c2-2"><span>SPECIALITY</span></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- artwork right choose logo choose 2 -->
+                                            <div class="option__items option__items-lv3 artwork-three choose-logo">
+                                                <p class="option-title">RIGHT-LOGO-COLOR</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-three-right"
+                                                            id="artwork-three-right-1" value="1" checked>
+                                                        <label for="artwork-three-right-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-three-right"
+                                                            id="artwork-three-right-2" value="2">
+                                                        <label for="artwork-three-right-2"></label>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <!-- artwork right choose speciality choose 2 -->
+                                            <div
+                                                class="option__items  option__items-lv3 artwork-three choose-speciality">
+                                                <p class="option-title">RIGHT - SPECIALITY</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-four-right"
+                                                            id="artwork-four-right-1" value="1" checked>
+                                                        <label for="artwork-four-right-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-four-right"
+                                                            id="artwork-four-right-2" value="2">
+                                                        <label for="artwork-four-right-2"></label>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- artwork left -->
+                                    <div class="choose-2__left configure_each-ear">
+                                        <!-- artwork choose logo or speciality left -->
+                                        <div class="choose-detail">
+                                            <div class="option-two option__items option__items-lv2">
+                                                <p class="option-title">LEFT</p>
+                                                <ul class="options options-text">
+                                                    <li class="option">
+                                                        <input type="radio" id="artwork-two-left-1" value="1" checked
+                                                            choose="logo" name="artwork-two-left">
+                                                        <label for="artwork-two-left-1"><span>LOGO-COLOR</span></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input type="radio" id="artwork-two-left-2" value="2"
+                                                            choose="speciality" name="artwork-two-left">
+                                                        <label for="artwork-two-left-2"><span>SPECIALITY</span></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- artwork left choose logo choose 2 -->
+                                            <div class="option__items option__items-lv3 artwork-three choose-logo">
+                                                <p class="option-title">LEFT-LOGO-COLOR</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-three-left"
+                                                            id="artwork-three-left-1" value="1" checked>
+                                                        <label for="artwork-three-left-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-three-left"
+                                                            id="artwork-three-left-2" value="2">
+                                                        <label for="artwork-three-left-2"></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- artwork left choose speciality choose 2 -->
+                                            <div
+                                                class="option__items  option__items-lv3 artwork-three choose-speciality">
+                                                <p class="option-title">LEFT - SPECIALITY</p>
+                                                <ul class="options options-crical">
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-four-left"
+                                                            id="artwork-four-left-1" value="1" checked>
+                                                        <label for="artwork-four-left-1"></label>
+                                                    </li>
+                                                    <li class="option">
+                                                        <input for="artwork" type="radio" name="artwork-four-left"
+                                                            id="artwork-four-left-2" value="2">
+                                                        <label for="artwork-four-left-2"></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CABLE -->
+                            <div class="option-detail option-cable">
+                                <!-- cable one  socket type-->
+                                <div class="option__items">
+                                    <p class="option-title">SOCKET TYPE</p>
+                                    <ul class="options options-text">
+                                        <li class="option">
+                                            <input for="cable" type="radio" id="cable-one-1" value="1" checked name="cable-one">
+                                            <label for="cable-one-1"><span>2-PIN</span></label>
+                                        </li>
+                                        <li class="option">
+                                            <input for="cable" type="radio" id="cable-one-2" value="2" name="cable-one">
+                                            <label for="cable-one-2"><span>IPX</span></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- cable two cable color-->
+                                <div class="option__items">
+                                    <p class="option-title">CABLE COLOR</p>
+                                    <ul class="options options-text">
+                                        <li class="option">
+                                            <input for="cable" type="radio" id="cable-two-1" value="1" checked name="cable-two">
+                                            <label for="cable-two-1"><span>WHITE</span></label>
+                                        </li>
+                                        <li class="option">
+                                            <input for="cable" type="radio" id="cable-two-2" value="2" name="cable-two">
+                                            <label for="cable-two-2"><span>BLACK</span></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- cable three socket length -->
+                                <div class="option__items">
+                                    <p class="option-title">SOCKET LENGTH</p>
+                                    <ul class="options options-text">
+                                        <li class="option">
+                                            <input for="cable" type="radio" id="cable-three-1" value="1" checked name="cable-three">
+                                            <label for="cable-three-1"><span>48"</span></label>
+                                        </li>
+                                        <li class="option">
+                                            <input for="cable" type="radio" id="cable-three-2" value="2" name="cable-three">
+                                            <label for="cable-three-2"><span>64"</span></label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <!-- material -->
+                            <div class="option-detail option-masterial">
+                                <div class="option__items">
+                                    <p class="option-title">MASTERIAL</p>
+                                    <ul class="options options-text">
+                                        <li class="option">
+                                            <input for="material" type="radio" id="masterial-one-1" value="1" checked
+                                                name="masterial-one">
+                                            <label for="masterial-one-1"><span>GOLD</span></label>
+                                        </li>
+                                        <li class="option">
+                                            <input for="material" type="radio" id="masterial-one-2" value="2" name="masterial-one">
+                                            <label for="masterial-one-2"><span>PLATINUM</span></label>
+                                        </li>
+                                        <li class="option">
+                                            <input for="material" type="radio" id="masterial-one-3" value="3" name="masterial-one">
+                                            <label for="masterial-one-3"><span>DIAMOND</span></label>
+                                        </li>
+                                        <li class="option">
+                                            <input for="material" type="radio" id="masterial-one-4" value="4" name="masterial-one">
+                                            <label for="masterial-one-4"><span>MASTER</span></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
+        <button class="id">aâ</button>
 
         <style>
             footer {
                 display: none;
             }
         </style>
-    </div>
-    <footer class="footer">
-        <div class="layuot footer-layuot__wraper">
-            <div class="layuot-box footer-layuot__box grid-col-12">
-                <img src="https://www.craftears.com/assets/img/logo-sygnet.svg" alt="" class="footer__logo">
-                <div class="footer__nav">
-                    <ul class="nav__list page">
-                        <li class="nav-item title">Content</li>
-                        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Artists</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Terms of Use</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Privacy Policy</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-                    </ul>
-                    <ul class="nav__list social">
-                        <li class="nav-item title">Follow us</li>
-                        <li class="nav-item"><a href="" class="nav-link">Facebook</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Instagram</a></li>
-                    </ul>
+
+        <footer class="footer">
+            <div class="layuot footer-layuot__wraper">
+                <div class="layuot-box footer-layuot__box grid-col-12">
+                    <img src="https://www.craftears.com/assets/img/logo-sygnet.svg" alt="" class="footer__logo">
+                    <div class="footer__nav">
+                        <ul class="nav__list page">
+                            <li class="nav-item title">Content</li>
+                            <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Artists</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Terms of Use</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Privacy Policy</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                        </ul>
+                        <ul class="nav__list social">
+                            <li class="nav-item title">Follow us</li>
+                            <li class="nav-item"><a href="" class="nav-link">Facebook</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <h2 class="footer__authors">by: <a href="#">Tuân Phạm</a>
+                    </h2>
                 </div>
-                <h2 class="footer__authors">by: <a href="#">Tuân Phạm</a>
-                </h2>
             </div>
-        </div>
-    </footer>
+        </footer>
     </div>
     <script src='../js/jquery.js'></script>
     <script src="../js/gsap.min.js"></script>
@@ -392,6 +758,7 @@
     <script src='../js/oder-detail.js'></script>
     <script>
         $('.header').addClass('active');
+       
     </script>
 </body>
 
