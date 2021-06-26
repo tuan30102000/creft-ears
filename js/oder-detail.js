@@ -41,7 +41,7 @@
         getLastData: function (producid = 2) {
             this.thisData = {}
             this.thisData.id = producid
-            return this.getData()
+            console.log( this.getData())
         },
         callAjax: function () {},
         getData: function () {

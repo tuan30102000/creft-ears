@@ -1,4 +1,5 @@
-.container-oder__wraper {
+.container-oder-page1__wraper {
+    min-height: 100vh;
 }
 
 .oder-box {
@@ -56,7 +57,6 @@ input[type="radio"] {
 .option-detail.active{
     display: block;
     animation: fadein ease 1s;
-
 }
 .option-detail.active {
     display: block;
