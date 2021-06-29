@@ -7,19 +7,19 @@
     width: 100%;
     transition: 1s;
 }
-.logo-scroll-hidden{
+.logo-scroll-hidden {
     display: block;
 }
-.logo-scroll-show{
-    display:none;
+.logo-scroll-show {
+    display: none;
 }
-.header.scroll,.header.active {
-    
+.header.scroll,
+.header.active {
     background-color: #fff;
-    .logo-scroll-hidden{
+    .logo-scroll-hidden {
         display: none;
     }
-    .logo-scroll-show{
+    .logo-scroll-show {
         display: block;
     }
     .header__btn-mobie {
@@ -37,21 +37,15 @@
     }
     .navigation {
         .user-path {
-            a {
+            a,
+            label {
                 color: #000;
-            }
-        }
-        .shopping-cart {
-            span {
-                background: #000;
-                color: #fff;
-                border-radius: 50%;
             }
         }
     }
 }
 
-.header.scroll{
+.header.scroll {
     box-shadow: 0 12px 32px 0 rgba(33, 37, 41, 0.06);
 }
 .header.open-menu {
@@ -68,7 +62,8 @@
     }
     .navigation {
         .user-path {
-            a {
+            a,
+            label i {
                 color: #000;
             }
         }
@@ -85,24 +80,6 @@
     text-transform: capitalize;
     display: flex;
     align-items: center;
-}
-.header__logo {
-    display: flex;
-
-    font-size: 24px;
-    color: #fff;
-    font-weight: 900;
-    transition: 0.4s;
-    align-items: center;
-    justify-content: flex-start;
-    img {
-        height: 70px;
-        width: 52px;
-       
-    }
-    /* span{
-        display: none;
-    } */
 }
 .header__list-link {
     display: flex;
@@ -125,30 +102,94 @@
     align-items: center;
     justify-content: flex-end;
     .user-path {
-        a {
+        a,
+        label {
             color: #fff;
             font-size: 32px;
             line-height: 32px;
             transition: 0.4s;
         }
     }
-    .shopping-cart {
-        margin-left: 15px;
-        display: block;
-        span {
-            display: block;
-            padding: 8px 10px;
-            background: #fff;
-            color: #000;
-            border-radius: 50%;
-            transition: 0.4s;
-        }
-    }
 }
-.header.oder-header{
+.header.oder-header {
     box-shadow: none !important;
     background-color: var(--oder-bg-header);
 }
+/* nav-user */
+.header-link__singed {
+}
+.nav-over-play {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+#navigation__user-input {
+    &:checked + label {
+        display: block;
+    }
+    &:checked ~ .navigatio__user-nav {
+        right: 0;
+    }
+}
+.navigatio__user-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    z-index: 102;
+    box-shadow: 0 0 32px -12px #666;
+    transition: 0.7s;
+}
+.user-nav__box {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.user-nav__avt {
+    border-radius: 50%;
+}
+.user-nav__list-info {
+    padding-left: 10px;
+    flex: 1;
+}
+.user-info__name {
+    border-bottom: 1px solid black;
+}
+.user-info__point {
+}
+.user-nav__list-link {
+    margin-top: 20px;
+
+    li {
+        font-size: 14px;
+        height: 30px;
+        border-bottom: 1px solid #000;
+
+        a,
+        label {
+            color: #000;
+            height: 100%;
+            /* text-align: right; */
+            display: block;
+            line-height: 30px;
+            span {
+                font-size: 20px;
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+.header-link__singed.extension-icon {
+}
+
 /* rps */
 
 @media (min-width: 1366px) {
@@ -187,8 +228,8 @@
     .navigation .shopping-cart {
         margin-left: 10px;
     }
-    .header.oder-header .header__list-link{
-      background-color:var(--oder-bg-header) ;
+    .header.oder-header .header__list-link {
+        background-color: var(--oder-bg-header);
     }
 }
 
@@ -200,7 +241,7 @@
     .header__logo {
         flex: 2;
     }
-   
+
     .navigation {
         flex: 1.5;
     }

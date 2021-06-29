@@ -2,10 +2,26 @@
     /* padding-top: 162px; */
     overflow: hidden;
 }
-
+.logo {
+    display: flex;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+    transition: 0.4s;
+    align-items: center;
+    justify-content: flex-start;
+    img {
+        height: 70px;
+        width: 52px;
+    }
+    /* span{
+        display: none;
+    } */
+}
 .layuot {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .layuot-no-pd {
     flex-basis: var(--layout-no-pd);
