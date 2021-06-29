@@ -13,32 +13,50 @@
     <div class="app">
         <header class="header layuot">
             <div class="header-box layuot-box">
-                <a href="#" class="header__logo">
-                    <img class="logo-scroll-show" src="https://lh3.google.com/u/0/d/1HWbbV1ewKU37D52Rh5e5n8Zc6lBU495a=w1920-h867-iv1" alt="">
-                    <img class="logo-scroll-hidden"src="https://lh3.google.com/u/0/d/1wbh7KEpPP5iVW__U3mfLr5kBpQoCgKz7=w1920-h867" alt="">
+                <a href="#" class="header__logo logo">
+                    <img class="logo-scroll-show"
+                        src="https://lh3.google.com/u/0/d/1HWbbV1ewKU37D52Rh5e5n8Zc6lBU495a=w1920-h867-iv1" alt="">
+                    <img class="logo-scroll-hidden"
+                        src="https://lh3.google.com/u/0/d/1wbh7KEpPP5iVW__U3mfLr5kBpQoCgKz7=w1920-h867" alt="">
                     <span>Legacy</span>
                 </a>
                 <ul class="header__list-link">
                     <li class="header__item"><a href="#ciem" class="header__item-link">Our CIEM's</a></li>
-                    <li class="header__item"><a href="https://tuan30102000.github.io/Legacy-ears/Craft-ears-product" class="header__item-link">works</a></li>
-                    <li class="header__item"><a href="https://tuan30102000.github.io/Legacy-ears/Craft-ear-artists" class="header__item-link">Artists</a></li>
-                    <li class="header__item"><a href="https://tuan30102000.github.io/Legacy-ears/Craft-ear-contact" class="header__item-link">Contact</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">works</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Artists</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Contact</a></li>
                 </ul>
                 <div class="navigation">
                     <div class="user-path">
-                        <a href="" class="header-link__singed  extension-icon"> <i class="far fa-user-circle"></i></a>
+                        <a href="" hidden class="header-link__singed  extension-icon"> <i
+                                class="far fa-user-circle"></i></a>
+                        <label for="navigation__user-input" class="header-link__singed  extension-icon"><i
+                                class="far fa-user-circle"></i></label>
                     </div>
-                    <div class="shopping-cart">
-                        <span class="cart-content"><i class="fas fa-shopping-cart"></i></span>
-                    </div>
+                  
                 </div>
 
                 <div class="header__btn-mobie show-mb"><span class="open"><i class="fas fa-bars"></i></span><span
                         class="close">X</span>
                 </div>
-
             </div>
-
+            <input type="checkbox" hidden id="navigation__user-input">
+            <label for="navigation__user-input" class="nav-over-play"> </label>
+            <div class="navigatio__user-nav">
+                <div class="user-nav__box">
+                    <img src="https://lolg-cdn.porofessor.gg/img/champion-icons/11.13/64/238.png" alt="" class="user-nav__avt">
+                    <div class="user-nav__list-info">
+                       <p class="user-info__name">Tuân Phạm</p>
+                       <p class="user-info__point">120 point</p>
+                    </div>  
+                </div>
+                <ul class="user-nav__list-link">
+                    <li><a href="">My Acount</a></li>
+                    <li><a href="">Log Out</a></li>
+                    <li><a href="">EN</a></li>
+                    <li><label for="navigation__user-input">Exit <span>X</span></label></li>
+                </ul>
+            </div>
         </header>
         <div class="container">
             <div class="layuot container__home-page1 pdt-162">
@@ -56,17 +74,6 @@
                     <div class="home-page1__btn-wraper pos-rel-z1">
                         <a href="#" class="home-page1__btn">Exlore</a>
                     </div>
-
-                    <!-- <div class="home-page1__img">
-                        <img src="https://www.craftears.com/assets/img/welcome-Laptop@2x.png" alt=""
-                            class="home-page1__img-elm lap">
-                        <img src="https://www.craftears.com/assets/img/welcome-Desktop@2x.png" alt=""
-                            class="home-page1__img-elm pc">
-                        <img src="https://www.craftears.com/assets/img/welcome-Tablet@2x.png" alt=""
-                            class="home-page1__img-elm tablet">
-                        <img src="https://www.craftears.com/assets/img/welcome-Mobile@2x.png" alt=""
-                            class="home-page1__img-elm mobie show-mb">
-                    </div> -->
                 </div>
             </div>
             <div class="layuot container__home-page2" id='ciem'>
@@ -246,7 +253,21 @@
         <footer class="footer">
             <div class="layuot footer-layuot__wraper">
                 <div class="layuot-box footer-layuot__box grid-col-12">
-                    <img src="https://www.craftears.com/assets/img/logo-sygnet.svg" alt="" class="footer__logo">
+                <div class="footer__related">
+                    <a href="#" class="footer__logo logo">
+                        <img class=""
+                            src="https://lh3.google.com/u/0/d/1wbh7KEpPP5iVW__U3mfLr5kBpQoCgKz7=w1920-h867" alt="">
+                        <span>Legacy</span>
+                    </a>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non pariatur numquam animi nam at impedit odit nisi.                    </p>
+                    <ul class="footer__social-network">
+                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-instagram-square" aria-hidden="true"></i></a></li>
+                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
                     <div class="footer__nav">
                         <ul class="nav__list page">
                             <li class="nav-item title">Content</li>
@@ -257,11 +278,12 @@
                             <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                         </ul>
                         <ul class="nav__list social">
-                            <li class="nav-item title">Follow us</li>
-                            <li class="nav-item"><a href="" class="nav-link">Facebook</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Instagram</a></li>
+                            <li class="nav-item title">Company</li>
+                            <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                         </ul>
                     </div>
+                    <div class="footer__boder-bt"></div>
                     <h2 class="footer__authors">by: <a href="#">Tuân Phạm</a>
                     </h2>
                 </div>
@@ -270,7 +292,6 @@
     </div>
     <script src='../js/jquery.js'></script>
     <script src="../js/gsap.min.js"></script>
-    <script src="../js/api.js"></script>
     <script src='../js/app.js'></script>
 
 </body>

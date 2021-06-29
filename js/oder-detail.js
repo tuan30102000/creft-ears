@@ -1,4 +1,4 @@
-(function(){
+(function () {
     const oderApp = {
         optionState: 0,
         thisData: {},
@@ -41,9 +41,9 @@
         getLastData: function (producid = 2) {
             this.thisData = {}
             this.thisData.id = producid
-            console.log( this.getData())
+            console.log(this.getData())
         },
-        callAjax: function () {},
+        callAjax: function () { },
         getData: function () {
             const _this = this
             _this.listOpitionDetail.forEach((item,) => {
@@ -60,7 +60,8 @@
                     }
                     else $(resultChoose1Or2).find('input[type="radio"]:checked').each((index, lastChoose) => { _this.addData($(lastChoose)) })
                 }
-                else $($(item).find('input[type=\"radio\"]:checked')).each((index, ipData) => { _this.addData($(ipData)) 
+                else $($(item).find('input[type=\"radio\"]:checked')).each((index, ipData) => {
+                    _this.addData($(ipData))
                 })
             })
             return _this.thisData
