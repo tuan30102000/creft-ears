@@ -13,52 +13,67 @@
     <div class="app">
         <header class="header layuot">
             <div class="header-box layuot-box">
-                <a href="#" class="header__logo">
-                    <img class="logo-scroll-show" src="https://lh3.google.com/u/0/d/1HWbbV1ewKU37D52Rh5e5n8Zc6lBU495a=w1920-h867-iv1" alt="">
-                    <img class="logo-scroll-hidden"src="https://lh3.google.com/u/0/d/1wbh7KEpPP5iVW__U3mfLr5kBpQoCgKz7=w1920-h867" alt="">
-                    <span>Legacy</span>
+                <a class="header__logo logo" href="/">
+                    <img class="logo-scroll-show" src="/assets/logoBlack.png" alt="">
+                    <img class="logo-scroll-hidden" src="/assets/logoWite.PNG" alt=""><span>Legacy</span>
                 </a>
                 <ul class="header__list-link">
                     <li class="header__item"><a href="#ciem" class="header__item-link">Our CIEM's</a></li>
-                    <li class="header__item"><a href="https://tuan30102000.github.io/Legacy-ears/Craft-ears-product" class="header__item-link">works</a></li>
-                    <li class="header__item"><a href="https://tuan30102000.github.io/Legacy-ears/Craft-ear-artists" class="header__item-link">Artists</a></li>
-                    <li class="header__item"><a href="https://tuan30102000.github.io/Legacy-ears/Craft-ear-contact" class="header__item-link">Contact</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">works</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Artists</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Contact</a></li>
                 </ul>
                 <div class="navigation">
                     <div class="user-path">
-                        <a href="" class="header-link__singed  extension-icon"> <i class="far fa-user-circle"></i></a>
-                    </div>
-                    <div class="shopping-cart">
-                        <span class="cart-content"><i class="fas fa-shopping-cart"></i></span>
+                        <label for="navigation__user-input" class="header-link__singed  extension-icon"><i
+                                class="far fa-user-circle" aria-hidden="true"></i></label>
                     </div>
                 </div>
-
-                <div class="header__btn-mobie show-mb"><span class="open"><i class="fas fa-bars"></i></span><span
-                        class="close">X</span>
-                </div>
-
+                <div class="header__btn-mobie show-mb"><span class="open"><i class="fas fa-bars"
+                            aria-hidden="true"></i></span><span class="close">X</span></div>
             </div>
-
+            <input type="checkbox" hidden="" id="navigation__user-input">
+            <label for="navigation__user-input" class="nav-over-play"> </label>
+            <div class="navigatio__user-nav">
+                <div class="user-nav__box">
+                    <img src="https://lolg-cdn.porofessor.gg/img/champion-icons/11.13/64/238.png" alt=""
+                        class="user-nav__avt">
+                    <div class="user-nav__list-info">
+                        <p class="user-info__name">Tuân Phạm</p>
+                        <p class="user-info__point">120 point</p>
+                    </div>
+                </div>
+                <ul class="user-nav__list-link">
+                    <li><a href="">My Acount</a></li>
+                    <li><a href="">Log Out</a></li>
+                    <li><a href="">EN</a></li>
+                    <li><label for="navigation__user-input">Exit <span>X</span></label></li>
+                </ul>
+            </div>
         </header>
         <div class="container">
             <div class="container-contact__wraper layuot pdt-162">
-                
+
                 <div class="container-contact__box layuot-box grid-col-12">
                     <p class="contact-title">contact us</p>
-                    <form action="" class="c">
+                    <form action="" id="form-contact" class="contact-form">
                         <div class="form__box contact-form__box contact-name">
-                            <input type="text" class="form__input-elm contact-name" id='name'>
-                            <label for="name" class="form__label-elm contact-name">Name</label>
+                            <input type="text" class="form__input-elm contact-name" placeholder=" " id='contact-name'>
+                            <label for="contact-name" class="form__label-elm contact-name">Name</label>
                             <div class="input-line"></div>
+                            <span class="form-message"></span>
                         </div>
                         <div class="form__box contact-form__box contact-email">
-                            <input type="text" class="form__input-elm contact-email" id='email'>
-                            <label for="email" class="form__label-elm contact-email" >Email</label>
+                            <input type="text" class="form__input-elm contact-email" placeholder=" " id='contact-email'>
+                            <label for="contact-email" class="form__label-elm contact-email">Email</label>
+                            <span class="form-message"></span>
                             <div class="input-line"></div>
                         </div>
                         <div class="form__box contact-form__box contact-message">
-                            <textarea type="text" class="form__input-elm contact-message" id='message'></textarea>
-                            <label for="message" class="form__label-elm contact-message" >message</label>
+                            <textarea type="text" class="form__input-elm contact-message" placeholder=" "
+                                id='contact-message'></textarea>
+                            <label for="contact-message" class="form__label-elm contact-message">message</label>
+                            <span class="form-message"></span>
                             <div class="input-line"></div>
                         </div>
                         <button class="form__btn contact-btn">SEND</button>
@@ -66,7 +81,8 @@
                     <div class="contact-info">
                         <div class="contact-info__box meet">
                             <p class="contact-info__tille">Let's meet!</p>
-                            <p class="contact-info__content meet">Contact us anyway you want. We reply to everyone right away. See for yourself.</p>
+                            <p class="contact-info__content meet">Contact us anyway you want. We reply to everyone right
+                                away. See for yourself.</p>
                         </div>
                         <div class="contact-info__box email-us">
                             <p class="contact-info__tille">call us:</p>
@@ -112,12 +128,31 @@
     </div>
     <script src='../js/jquery.js'></script>
     <script src="../js/gsap.min.js"></script>
-    <script src="../js/api.js"></script>
-    <script src='../js/app.js'></script>
+    <script src="../js/validate.js"></script>
+    <script src="../js/app.js"></script>
     <script src="../js/form.js"></script>
-<script>
-    $('.header').addClass('active');
-</script>
+    <script>
+        $('.header').addClass('active');
+        Validator({
+            form: '#form-contact',
+            rules: [
+                Validator.isRequired('#contact-name'),
+                Validator.isRequired('#contact-email'),
+                Validator.isEmail('#contact-email', 'Vui lòng nhập email'),
+                Validator.isRequired('#contact-message'),
+                Validator.minLength('#contact-message', 8),
+
+            ],
+            onSubmit: function (data) {
+
+                /* call api */
+                console.log(data)
+                $('#form-contact').find('.form__input-elm').each((index, item) => {
+                    item.value = ''
+                })
+            }
+        });
+    </script>
 </body>
 
 </html>

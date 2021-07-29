@@ -13,12 +13,9 @@
     <div class="app">
         <header class="header layuot">
             <div class="header-box layuot-box">
-                <a href="#" class="header__logo logo">
-                    <img class="logo-scroll-show"
-                        src="https://lh3.google.com/u/0/d/1HWbbV1ewKU37D52Rh5e5n8Zc6lBU495a=w1920-h867-iv1" alt="">
-                    <img class="logo-scroll-hidden"
-                        src="https://lh3.google.com/u/0/d/1wbh7KEpPP5iVW__U3mfLr5kBpQoCgKz7=w1920-h867" alt="">
-                    <span>Legacy</span>
+                <a class="header__logo logo" href="/">
+                    <img class="logo-scroll-show" src="/assets/logoBlack.png" alt="">
+                    <img class="logo-scroll-hidden" src="/assets/logoWite.PNG" alt=""><span>Legacy</span>
                 </a>
                 <ul class="header__list-link">
                     <li class="header__item"><a href="#ciem" class="header__item-link">Our CIEM's</a></li>
@@ -28,17 +25,30 @@
                 </ul>
                 <div class="navigation">
                     <div class="user-path">
-                        <a href="" hidden class="header-link__singed  extension-icon"> <i
-                                class="far fa-user-circle"></i></a>
                         <label for="navigation__user-input" class="header-link__singed  extension-icon"><i
-                                class="far fa-user-circle"></i></label>
+                                class="far fa-user-circle" aria-hidden="true"></i></label>
                     </div>
-                  
                 </div>
-
-                <div class="header__btn-mobie show-mb"><span class="open"><i class="fas fa-bars"></i></span><span
-                        class="close">X</span>
+                <div class="header__btn-mobie show-mb"><span class="open"><i class="fas fa-bars"
+                            aria-hidden="true"></i></span><span class="close">X</span></div>
+            </div>
+            <input type="checkbox" hidden="" id="navigation__user-input">
+            <label for="navigation__user-input" class="nav-over-play"> </label>
+            <div class="navigatio__user-nav">
+                <div class="user-nav__box">
+                    <img src="https://lolg-cdn.porofessor.gg/img/champion-icons/11.13/64/238.png" alt=""
+                        class="user-nav__avt">
+                    <div class="user-nav__list-info">
+                        <p class="user-info__name">Tuân Phạm</p>
+                        <p class="user-info__point">120 point</p>
+                    </div>
                 </div>
+                <ul class="user-nav__list-link">
+                    <li><a href="">My Acount</a></li>
+                    <li><a href="">Log Out</a></li>
+                    <li><a href="">EN</a></li>
+                    <li><label for="navigation__user-input">Exit <span>X</span></label></li>
+                </ul>
             </div>
         </header>
         <div class="container">
@@ -204,28 +214,23 @@
             <div class="layuot container__home-page5" id='ciem'>
                 <div class="layuot-box home-page5__box grid-col-12">
                     <div class="clip-box">
-                        <div class="clip clip1">
+                        <div class="clip clip1"
+                            style="background-image: url('https://legacyears.com/image/lope-pham.jpg');">
                             <div class="content">
                                 <h1>Post Title One</h1>
-                                <p>All requests to use our content in a UK setting only are covered by the NICE UK Open
-                                    Content Licence. This allows you to reuse our content free of charge, subject to the
-                                    terms and conditions of the licence.</p>
+                                <p>Lope Pham</p>
                             </div>
                         </div>
-                        <div class="clip clip2">
+                        <div class="clip clip2" style="background-image: url('https://legacyears.com/image/rpt-orijinn.jpg');">
                             <div class="content">
                                 <h1>Post Title Two</h1>
-                                <p>All requests to use our content in a UK setting only are covered by the NICE UK Open
-                                    Content Licence. This allows you to reuse our content free of charge, subject to the
-                                    terms and conditions of the licence.</p>
+                                <p>RPT Orijinn</p>
                             </div>
                         </div>
-                        <div class="clip clip3">
+                        <div class="clip clip3" style="background-image: url('https://legacyears.com/image/rpt_duke.jpg');">
                             <div class="content">
                                 <h1>Post Title Three</h1>
-                                <p>All requests to use our content in a UK setting only are covered by the NICE UK Open
-                                    Content Licence. This allows you to reuse our content free of charge, subject to the
-                                    terms and conditions of the licence.</p>
+                                <p>RPT Duke</p>
                             </div>
                         </div>
                     </div>
@@ -236,21 +241,26 @@
         <footer class="footer">
             <div class="layuot footer-layuot__wraper">
                 <div class="layuot-box footer-layuot__box grid-col-12">
-                <div class="footer__related">
-                    <a href="#" class="footer__logo logo">
-                        <img class=""
-                            src="https://lh3.google.com/u/0/d/1wbh7KEpPP5iVW__U3mfLr5kBpQoCgKz7=w1920-h867" alt="">
-                        <span>Legacy</span>
-                    </a>
-                    <p class="footer__text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non pariatur numquam animi nam at impedit odit nisi.                    </p>
-                    <ul class="footer__social-network">
-                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
-                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
-                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-instagram-square" aria-hidden="true"></i></a></li>
-                        <li class="social-network__items"><a href="" class="social-network__links"><i class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
+                    <div class="footer__related">
+                        <a href="#" class="footer__logo logo">
+                            <img class=""
+                                src="https://lh3.google.com/u/0/d/1wbh7KEpPP5iVW__U3mfLr5kBpQoCgKz7=w1920-h867" alt="">
+                            <span>Legacy</span>
+                        </a>
+                        <p class="footer__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non pariatur numquam animi
+                            nam at impedit odit nisi. </p>
+                        <ul class="footer__social-network">
+                            <li class="social-network__items"><a href="" class="social-network__links"><i
+                                        class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li class="social-network__items"><a href="" class="social-network__links"><i
+                                        class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+                            <li class="social-network__items"><a href="" class="social-network__links"><i
+                                        class="fab fa-instagram-square" aria-hidden="true"></i></a></li>
+                            <li class="social-network__items"><a href="" class="social-network__links"><i
+                                        class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
                     <div class="footer__nav">
                         <ul class="nav__list page">
                             <li class="nav-item title">Content</li>
@@ -276,6 +286,7 @@
     <script src='../js/jquery.js'></script>
     <script src="../js/gsap.min.js"></script>
     <script src='../js/app.js'></script>
+    <script src="../js/home-page.js"></script>
 
 </body>
 

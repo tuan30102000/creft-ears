@@ -1,18 +1,3 @@
-/* function animationHomePage1() {
-    var timeline = gsap.timeline({
-        default: {
-            duration: 1,
-        }
-    })
-    if ($(window).width() < 768) {
-        timeline
-            .from('.header', { x: '100%', duration: 1.4, ease: 'ease', })
-    } else {
-        timeline
-            .from('.header', { x: '100%', duration: 1.4, ease: 'ease', })
-            .from('.header__item', { duration: .8, opacity: 0, stagger: .3, })
-    }
-} */
 (function(){
     const generalApp = {
         starts: function() {
